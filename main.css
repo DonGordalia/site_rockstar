@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #000;
+}
+
+header {
+    padding: 16px 8px;
+    color: white;
+    padding: 8px;
+    border: #fcaf17;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a,
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.gtavi {
+    display: grid;
+    max-width: none;
+    margin: 0 auto;
+    color: #fff;
+    max-width: 1280px;
+}
+
+.newsletter {
+    color: #fff;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+form input,
+form button {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #fcaf17;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #fcb017e7;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+}
